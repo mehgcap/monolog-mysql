@@ -204,6 +204,7 @@ class MySQLHandler extends AbstractProcessingHandler
         }
 
         $this->prepareStatement();
+		echo "test";
 
 	    //Remove unused keys
 	    foreach($this->additionalFields as $key => $context) {
